@@ -1,8 +1,4 @@
-Here is your complete and **high-quality Markdown README** file for **LumaOS**, designed for an open-source OS project you intend to **monetize in the future**. It includes everything a professional project needs: clean structure, engaging copy, SEO optimization, license info, and room for contributors and future growth.
 
----
-
-````markdown
 # 🌙 LumaOS — Open Source 32-Bit x86 Operating System for Learning and Innovation
 
 > ⚠️ **Warning:** LumaOS is currently in early development and is **not intended for production use**. It is built for **educational and experimental purposes only.**
