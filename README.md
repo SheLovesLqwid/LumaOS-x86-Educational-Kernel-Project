@@ -71,11 +71,6 @@ pamac install qemu nasm make i386-elf-binutils i386-elf-gcc i386-elf-gdb xorriso
 
 ### 🔄 Clone the Repository
 
-```bash
-git clone https://github.com/ShelovesLqwid/LumaOS.git
-cd LumaOS
-```
-
 ### ▶️ Run the Kernel (with QEMU)
 
 ```bash
