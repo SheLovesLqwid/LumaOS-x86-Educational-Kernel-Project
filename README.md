@@ -1,7 +1,7 @@
 
 # 🌙 LumaOS — Open Source 32-Bit x86 Operating System for Learning and Innovation
 
-> ⚠️ **Warning:** LumaOS is currently in early development and is **not intended for production use**. It is built for **educational and experimental purposes only.**
+ ⚠️ **Warning:** LumaOS is currently in early development and is **not intended for production use**. It is built for **educational and experimental purposes only.**
 
 ![LumaOS](https://dummyimage.com/1000x300/111/fff&text=LumaOS+Advanced+x86+Operating+System+for+Education+&+Innovation
 )
@@ -38,11 +38,11 @@ LumaOS isn’t just another toy kernel—it’s a project designed to evolve int
 | Interrupt Service Routines | ✅       | CPU and hardware interrupt handling with ISRs and IRQs                      |
 | VGA Text Graphics          | ✅       | Output through VGA text mode interface (80x25)                              |
 | Keyboard Input             | ✅       | PS/2 keyboard driver with raw scancode handling                             |
-| Mouse Support              | ⏳       | Planned PS/2 mouse driver with cursor support                               |
+| Mouse Support              | ✅       | PS/2 mouse driver with cursor support and smooth movement                  |
 | Terminal / Shell           | ✅       | Minimal command-line shell for user interaction                             |
 | Dynamic Memory Allocation  | ✅       | Custom malloc-like heap management                                          |
-| File System Support        | ⏳       | Plans for ext2 integration or custom FS                                     |
-| GUI (Graphical UI)         | ⏳       | Planned GUI using pixel-by-pixel graphics and window manager                |
+| File System Support        | ✅       | Custom file system implementation with basic file operations                |
+| GUI (Graphical UI)         | ✅       | Dark midnight-themed GUI with window management and basic controls          |
 
 ---
 
