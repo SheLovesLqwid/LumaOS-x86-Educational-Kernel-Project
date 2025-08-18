@@ -9,6 +9,7 @@
 #include <kernel/cpu/timer.h>
 
 #include <driver/keyboard.h>
+#include <driver/mouse.h>
 
 #include <fs/filesystem.h>
 #include <fs/initramdisk.h>
@@ -80,6 +81,10 @@ int main(multiboot_t *mboot_ptr, uint32_t initial_stack)
 
     init_keyboard();
     printf("[Init] Keyboard...");
+    
+    // initialize the PS/2 mouse
+    init_mouse();
+    printf("[Init] PS/2 Mouse...");
 
     printf("%s\n", str);
     printf("LumaOS - by OGDev Studios (Copyright 2025)");
